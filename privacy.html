@@ -44,7 +44,7 @@ button { background: var(--accent); color: #fff; border: 0; border-radius: 8px; 
 <div class="wrap">
 <header>
 <h1>Privacy Policy</h1>
-<p class="meta">Last Updated: September 2026</p>
+<p class="meta">Last Updated: October 2026</p>
 <nav>
 <a href="./">Home</a><a href="privacy">Privacy</a><a href="terms">Terms</a><a href="support">Support</a>
 </nav>
@@ -56,23 +56,35 @@ button { background: var(--accent); color: #fff; border: 0; border-radius: 8px; 
 <li><strong>Device Data:</strong> Your boards, journal entries, rituals, and app preferences are stored on your device.</li>
 <li><strong>Account Data:</strong> When you first set up the app, we create an anonymous account for you automatically: a random user ID, with no name or email address. If you sign in with email and password or with Sign in with Apple, your email address and sign-in provider are added to that account, and a display name may be stored with it — the name you enter when you sign up, or the one Apple shares. Account data is stored by Supabase in the United States.</li>
 <li><strong>Photos:</strong> When you add photos from your photo library, they remain on your device unless you explicitly export or share them.</li>
-<li><strong>Purchases and Entitlements:</strong> If you buy or restore a subscription, purchase-related metadata may be processed to keep your entitlements in sync.</li>
+<li><strong>Purchases and Entitlements:</strong> If you buy or restore Premium, Apple processes the payment and RevenueCat keeps the purchase record (product, date, status) under your random user ID, so Premium stays unlocked on your devices.</li>
 <li><strong>Stock Photos:</strong> When you use stock photos from Pexels, your search queries are sent to that service.</li>
-<li><strong>Diagnostics:</strong> If enabled, crash and error reports may be collected to help us improve app stability.</li>
+<li><strong>Diagnostics:</strong> Crash and error reports, and a sample of performance traces, sent to Sentry with no name, email or account ID. Turn them off in Settings → Privacy &amp; Data → Diagnostics.</li>
 </ul>
 <h2>How We Use Your Information</h2>
 <ul><li>To provide and maintain the app functionality</li><li>To improve the app experience</li><li>To fix bugs and technical issues</li></ul>
 <h2>Data Storage</h2>
-<p>Your boards, journal entries, rituals, and photos are stored on your device using local encrypted or secure storage, and are never uploaded to our servers. Your account data and subscription status are stored by Supabase, our backend provider, in the United States.</p>
+<p>Your boards, journal entries, rituals, and photos are stored on your device using local encrypted or secure storage, and are never uploaded to our servers. Your account data and subscription status are stored by Supabase, our backend provider, in the United States. Our service providers may process data in the United States and in other countries where they operate.</p>
 <h2>Third-Party Services</h2>
 <ul>
 <li><strong>Supabase:</strong> For your account, sign-in, and subscription status. Supabase stores this data in the United States.</li>
 <li><strong>RevenueCat:</strong> For subscription purchases, entitlement management, and restore flows.</li>
-<li><strong>Pexels:</strong> For stock photos. Subject to their privacy policies.</li>
-<li><strong>Error Reporting (optional):</strong> For crash and stability diagnostics, if enabled in this build.</li>
+<li><strong>Apple:</strong> For Sign in with Apple and App Store purchases. Apple’s privacy policy applies to the data Apple processes.</li>
+<li><strong>Pexels:</strong> For stock photos. Your search terms go to Pexels with no account information; Pexels’ privacy policy applies to what it receives.</li>
+<li><strong>Error Reporting (optional):</strong> Sentry, for crash and stability reports. You can turn them off in Settings → Privacy &amp; Data → Diagnostics.</li>
+<li><strong>Expo:</strong> For app updates that fix bugs. The update check sends the app’s version, not your account.</li>
 </ul>
+<p>Each of these providers receives only the data it needs to provide its service to us, and is bound by its own terms and data processing commitments to protect that data at least as well as this policy does.</p>
+<h2>How Long We Keep Data</h2>
+<ul>
+<li><strong>On your device:</strong> Until you delete it, clear the app’s data or delete the app.</li>
+<li><strong>Your account:</strong> Until you delete it. An anonymous account nobody has used for 90 days is deleted automatically.</li>
+<li><strong>Purchase records:</strong> Kept by RevenueCat and Apple for as long as accounting, refunds and the law require, also after you delete your account.</li>
+<li><strong>Crash reports:</strong> Kept by Sentry for a limited period under its retention policy, then deleted.</li>
+</ul>
+<h2>Withdrawing Consent</h2>
+<p>You can change your mind at any time: turn off Diagnostics or notifications in Settings, deny or remove photo access in iOS Settings, stop using stock photo search, or delete your account. Withdrawing consent does not affect what was processed before.</p>
 <h2>Your Rights</h2>
-<ul><li>Export all your data at any time from Settings</li><li>Clear local app data at any time from Settings</li><li>Delete your account and account-linked data at any time from Settings</li><li>Control notifications, permissions, and optional account features</li></ul>
+<ul><li>Export all your data at any time from Settings</li><li>Clear local app data at any time from Settings</li><li>Delete your account and account-linked data at any time from Settings → Privacy &amp; Data → Delete Account, or ask us by email</li><li>Control notifications, permissions, and optional account features</li></ul>
 <h2>Children's Privacy</h2>
 <p>Our app does not knowingly collect information from children under 13. If you are a parent and believe your child has provided us with personal information, please contact us.</p>
 <h2>Changes to This Policy</h2>
